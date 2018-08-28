@@ -1,29 +1,18 @@
 # zxing
 一句话依赖就能实现扫一扫功能，包含闪光灯开关，选取本地图片解析，生成二维码(可带logo)功能等。
 
-更新日志：
-https://github.com/yuzhiqiang1993/zxing/wiki/update-log
-
-博客： http://blog.csdn.net/yuzhiqiang_1993/article/details/78292004
-
-
-扫描二维码下载APK体验一下
-========
-![扫描二维码](https://github.com/yuzhiqiang1993/zxing/blob/master/img/downloadApk.png "扫描下载APK")
-
-
 首先来看看效果图
 ========
 
 
 下图分别为 扫描二维码，扫描条码，闪光灯，解析二维码图片，解析条码图片，生成二维码
 ------------------------
-![扫描二维码](https://github.com/yuzhiqiang1993/zxing/blob/master/img/scanEwm.gif "扫描二维码")
-![扫描条码](https://github.com/yuzhiqiang1993/zxing/blob/master/img/scanTm.gif "扫描条码")
-![闪光灯](https://github.com/yuzhiqiang1993/zxing/blob/master/img/flashlight.gif "闪光灯")
-![解析二维码图片](https://github.com/yuzhiqiang1993/zxing/blob/master/img/decodeEWM.gif "解析二维码图片")
-![解析条码图片](https://github.com/yuzhiqiang1993/zxing/blob/master/img/decodeTM.gif "解析条码图片")
-![生成二维码图片](https://github.com/yuzhiqiang1993/zxing/blob/master/img/createEwm.gif "生成二维码图片")
+![扫描二维码](https://github.com/mailiang1995/zxing/blob/master/img/scanEwm.gif "扫描二维码")
+![扫描条码](https://github.com/mailiang1995/zxing/blob/master/img/scanTm.gif "扫描条码")
+![闪光灯](https://github.com/mailiang1995/zxing/blob/master/img/flashlight.gif "闪光灯")
+![解析二维码图片](https://github.com/mailiang1995/zxing/blob/master/img/decodeEWM.gif "解析二维码图片")
+![解析条码图片](https://github.com/mailiang1995/zxing/blob/master/img/decodeTM.gif "解析条码图片")
+![生成二维码图片](https://github.com/mailiang1995/zxing/blob/master/img/createEwm.gif "生成二维码图片")
 
 >
 使用方法
@@ -51,7 +40,7 @@ allprojects {
     compile 'com.android.support:appcompat-v7:26.1.0'
     
     /*添加依赖  android studio3.0及以上版本可用implementation代替compile*/
-    compile 'com.github.yuzhiqiang1993:zxing:2.1.6'
+    compile 'com.github.mailiang1995:zxing:v1.2'
 }
 
  
